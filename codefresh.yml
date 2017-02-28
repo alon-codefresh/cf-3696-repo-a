@@ -13,11 +13,5 @@ steps:
          title: Build
          type: build
          dockerfile: Dockerfile
-         image_name: codefresh/demochat
+         image_name: aloncodefresh/cf3696repoa
 
-     launch_composition:
-       title: Launch Composition
-       type: launch-composition
-       composition: docker-compose.yml
-       environment_name: 'node hello world'
-       entry_point: web
