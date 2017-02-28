@@ -9,6 +9,12 @@ steps:
             - npm install --silence
             - npm test
 
+    git_clone_test: 
+      type: git-clone 
+      description: cloning test 
+      repo: 'https://github.com/alon-codefresh/cf-3696-repo-b.git' 
+      revision: master 
+
      build_step:
          title: Build
          type: build
